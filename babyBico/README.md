@@ -1,3 +1,8 @@
-# The relayr Thermometer App
+BabyBICO-wunderbar
+==================
 
-The relayr thermometer app uses the Temperature and Humidity sensor and the relayr Cloud Platform in order to display the temperature reading in the environmnet where the sensor is placed. This repository is built as a step by step sequesnce which allows you to see the different stages of creating the app.
+Smart alert system that could let you know how your baby was sleeping. Build on Relayr platform Wunderbar.
+
+Detail descriptions and steps i will provide you soon.
+
+IMPORTANT: to use the project you need a Relayr Wunderbar. More info here: https://relayr.io/
