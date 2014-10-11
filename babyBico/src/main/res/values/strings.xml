@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BabyBico</string>
+    <string name="hello">Hello %s!</string>
+    <string name="hello_relayr">Hello Miha!</string>
+    <string name="action_log_in">Log in</string>
+    <string name="action_log_out">Log out</string>
+    <string name="successfully_logged_in">You were successfully logged in!</string>
+    <string name="successfully_logged_out">You were successfully logged out!</string>
+    <string name="unsuccessfully_logged_in">There was a problem in the log in.</string>
+    <string name="something_went_wrong">Oops! Something went wrong</string>
+
+    <string name="title_temperature">Temperature</string>
+    <string name="title_sound">Sound</string>
+    <string name="title_accelerometer">Accelerometer</string>
+    <string name="title_high_temperature">High Temperature</string>
+    <string name="title_low_temperature">Low Temperature</string>
+
+    <string name="title_awake">Awake</string>
+    <string name="title_sleeping">Sleeping</string>
+
+    <string name="btn_low_label">Low temp</string>
+    <string name="btn_high_label">High temp</string>
+    <string name="btn_sound_label">Sound</string>
+    <string name="btn_awake_label">Awake</string>
+    <string name="btn_sleeping_label">Sleeping</string>
+
+    <color name="awake">#ff6ea086</color>
+    <color name="high">#D26557</color>
+    <color name="low">#ff0071bc</color>
+    <color name="sleeping">#ff65baf7</color>
+    <color name="sound">#fff79b21</color>
+    <color name="main">#edebe4</color>
+    <color name="start">#edebe4</color>
+
+
+</resources>

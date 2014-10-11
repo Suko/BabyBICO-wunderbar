@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="@color/start"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:weightSum="1">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="57dp"
+            android:id="@+id/btn_sleeping"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="left"
+            android:background="@drawable/sleeping_overview"
+      />
+
+        <TextView
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewText"
+            android:paddingLeft="20dp"
+            android:text="I have 45 min sleep left"
+            android:textSize="25dp"
+            android:textColor="#808080"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.74" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:id="@+id/btn_sound"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="left"
+            android:src="@drawable/sound_overview"
+
+
+          />
+
+        <TextView
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:text="Room sound ok"
+            android:textSize="25dp"
+            android:paddingLeft="20dp"
+            android:textColor="#808080"
+            android:layout_gravity="top" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="53dp"
+            android:id="@+id/btn_high"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="left"
+            android:src="@drawable/termometer_overview" />
+
+        <TextView
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_vertical|top"
+            android:paddingLeft="20dp"
+            android:text="Room temperature ok"
+            android:textSize="25dp"
+            android:textColor="#808080"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="52dp"
+            android:id="@+id/imageView3"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="left"
+            android:src="@drawable/humity_overview"
+          />
+
+        <TextView
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_gravity="center|top"
+            android:paddingLeft="20dp"
+            android:text="Room humidity ok"
+            android:textSize="25dp"
+            android:textColor="#808080"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

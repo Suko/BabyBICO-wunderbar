@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@color/main">
+
+    <TextView
+        android:id="@+id/accelerometer_value"
+        android:text="@string/title_accelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/temperature_value"
+        android:text="@string/title_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/accelerometer_value"/>
+
+    <TextView
+        android:id="@+id/sound_value"
+        android:text="@string/title_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/temperature_value"/>
+
+
+    <Button
+        android:id="@+id/btn_awake"
+        android:text="@string/btn_awake_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="bottom"
+        android:layout_below="@+id/sound_value"/>
+
+    <Button
+        android:id="@+id/btn_high"
+        android:text="@string/btn_high_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="bottom"
+        android:layout_below="@+id/btn_awake"/>
+
+    <Button
+        android:id="@+id/btn_sound"
+        android:text="@string/btn_sound_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_high"/>
+    <Button
+        android:id="@+id/btn_sleeping"
+        android:text="@string/btn_sleeping_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_sound"/>
+    <Button
+        android:id="@+id/btn_low"
+        android:text="@string/btn_low_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_sleeping"/>
+
+
+
+
+
+
+
+</RelativeLayout>
